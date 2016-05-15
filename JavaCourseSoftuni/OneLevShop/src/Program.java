@@ -8,7 +8,7 @@ import java.util.stream.Collectors;
  */
 public class Program {
     public static void main(String[] args) {
-        List <Product> products = new ArrayList<Product>();
+        List <Product> products = new ArrayList<>();
         FoodProduct cigars = new FoodProduct("420 Blaze it fgt", 6.90, 1400, AgeRestriction.Adult, new Date());
 
         Customer pecata = new Customer("Pecata", 17, 30.00);

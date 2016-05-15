@@ -20,7 +20,7 @@ public abstract class Product implements Buyable {
     }
 
     public void setName(String name){
-        if (name.isEmpty() || name.equals(null)){
+        if (name == null || name.isEmpty() ){
             throw new IllegalArgumentException("Name must not be null ot empty");
         }
         this.name = name;

@@ -1,6 +1,4 @@
-/**
- * Created by maria on 9/24/2015.
- */
+
 public class Computer extends ElectronicsProduct {
     private  double _priceDiscount = 95;
     private static final int GUARANTEED_PERIOD = 24;
